@@ -1,0 +1,7 @@
+print('Введите n')
+n = input()
+n = int(n)
+for i in range(n):
+    a = input()
+    if a == ' ':
+        print('Вы ввели пустую строку!')

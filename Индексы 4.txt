@@ -1,0 +1,7 @@
+print('Введите число')
+n = input()
+n = int(n)
+a = 1
+while a<=n:
+    print(a)
+    a*=2

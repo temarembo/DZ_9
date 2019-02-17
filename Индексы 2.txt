@@ -1,0 +1,8 @@
+print('Введите слово')
+n = input()
+if n[2] == "к" or "л" or "и":
+    a = 1
+else:
+    a = 0
+for i in range (a,len(n),2):
+    print(n[i])
